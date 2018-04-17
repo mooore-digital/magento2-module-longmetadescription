@@ -1,6 +1,6 @@
 {
   "name": "marissen/magento2-module-longmetadescription",
-  "description": "",
+  "description": "Create product meta descriptions longer than 255 characters.",
   "license": "MIT",
   "authors": [
     {
