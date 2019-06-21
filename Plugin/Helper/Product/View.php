@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Marissen\LongMetaDescription\Plugin\Helper\Product;
 
 use Magento\Catalog\Api\Data\ProductInterface;
+use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Helper\Product\View as Subject;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\View\Result\Page as ResultPage;
-use Magento\Catalog\Api\ProductRepositoryInterface;
 
 class View
 {
@@ -56,8 +56,7 @@ class View
             return $result;
         }
 
-        $pageConfig = $resultPage->getConfig();
-        $pageConfig->setDescription($longMetaDescription);
+        $resultPage->getConfig()->setDescription($longMetaDescription);
 
         return $result;
     }
