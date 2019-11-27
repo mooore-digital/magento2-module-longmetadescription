@@ -3,7 +3,7 @@ Create product meta descriptions longer than 255 characters, while keeping the o
 
 ## Installation
 ```
-composer require marissen/magento2-module-longmetadescription
+composer require mooore/magento2-module-longmetadescription
 bin/magento setup:upgrade --keep-generated
 ```
 

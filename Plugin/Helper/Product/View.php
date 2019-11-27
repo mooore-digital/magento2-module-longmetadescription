@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Marissen\LongMetaDescription\Plugin\Helper\Product;
+namespace Mooore\LongMetaDescription\Plugin\Helper\Product;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Api\ProductRepositoryInterface;

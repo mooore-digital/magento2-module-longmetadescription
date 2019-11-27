@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Marissen\LongMetaDescription\Setup;
+namespace Mooore\LongMetaDescription\Setup;
 
 use Magento\Catalog\Model\Product;
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
